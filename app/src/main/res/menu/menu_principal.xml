@@ -6,4 +6,5 @@
         android:icon="@drawable/ic_cadastrar"
         android:title="Cadastrar"
         app:showAsAction="ifRoom" />
+
 </menu>
