@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_vertical"
     android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_margin="20dp"
     tools:context=".Principal_Activity">
 
     <TextView
@@ -13,6 +14,9 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Janela Principal"
-        android:textSize="50dp" />
+        android:textSize="50dp"
+        android:layout_marginBottom="50dp"/>
+
+    <include layout="@layout/cardview_livros"/>
 
 </LinearLayout>
